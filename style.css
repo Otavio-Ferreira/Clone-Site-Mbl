@@ -1,0 +1,225 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+header{
+    background-color: #F2F2F2;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav img {
+    width: 120px;
+}
+
+#texto h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 36px;
+    margin: 30px;
+}
+
+#texto p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin: 20px;
+}
+
+#redes {
+    text-align: center;
+}
+
+#redes img{
+    margin: 5px;
+    width: 30px;
+}
+
+#principal {
+    margin: 60px;
+    display: flex;
+    
+}
+
+#video{
+    margin: auto;
+}
+
+#texto-main{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    max-width: 450px;
+    text-align: justify;
+}
+
+#texto-main button{
+    width: 250px;
+    height: 40px;
+    border: solid 2px black;
+    font-size: 14px;
+    display: block;
+    margin: auto;
+}
+
+#inscrição{
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#inscrição input{
+    background-color: #F2F2F2;
+    font-size: 17px;
+    border: solid 2px black;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+}
+
+#inscrição button{
+    background-image: linear-gradient(to right, #353845, #394564);
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-style: bold;
+    width: 80px;
+    height: 40px;
+}
+
+#secundario{
+    margin-top: 30px;
+    
+}
+
+#s1{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#s2{
+    display: flex;
+}
+
+.bloco{
+    width: 400px;
+    height: 350px;
+    border: solid 1px black;
+    text-align: justify;
+    margin: auto;
+}
+
+.bloco img{
+    display: block;
+    margin: auto;
+}
+
+.bloco h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.bloco p{
+    margin: 10px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.bloco button{
+    background-image: linear-gradient(to right, #353845, #394564);
+    border: none;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    
+}
+
+#contato{
+    text-align: center;
+    margin: 40px;
+}
+
+#texto-ct{
+    max-width: 550px;
+    margin: auto;
+}
+
+#texto-ct h2{
+    font-size: 35px;
+    margin: 20px;
+}
+
+#formulario{
+    margin: 20px;
+}
+
+#formulario input{
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: 10px;
+    width: 270px;
+    height: 40px;
+    border: solid 2px black;
+}
+
+#formulario textarea{
+    background-color: #F2F2F2;
+    border: solid 2px black;
+    text-align: center;
+    margin: 10px;
+}
+
+#formulario button{
+    background-image: linear-gradient(to right, #353845, #394564);
+    border: none;
+    width: 270px;
+    height: 40px;
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+}
+
+footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    
+}
+
+.rodape{
+    text-align: justify;
+    margin: auto;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: black;
+}
+
+#imgs-ft img{
+    width: 25px;
+}
